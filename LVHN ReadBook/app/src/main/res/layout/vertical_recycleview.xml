@@ -37,11 +37,7 @@ xmlns:android="http://schemas.android.com/apk/res/android" >
         android:textAllCaps="false"
         android:textStyle="bold"
         android:clickable="true"
-        android:textColor="@color/uncheckedbottom"
-        android:textColorHint="@color/colorGreen"
-        android:textColorHighlight="@color/colorGreen"
-        android:textColorLink="@color/colorGreen"
-
+        android:textColor="@color/select_btn"
         android:text="Xem thêm >"/>
 </LinearLayout>
 
