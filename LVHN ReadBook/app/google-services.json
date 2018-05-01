@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "904789266660",
+    "firebase_url": "https://lvhnreadbook.firebaseio.com",
+    "project_id": "lvhnreadbook",
+    "storage_bucket": "lvhnreadbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904789266660:android:db6e19f81f036e32",
+        "android_client_info": {
+          "package_name": "com.example.user.lvhnreadbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904789266660-t93i03hh1emp59i5a8o3dm9dfkmvmjf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.lvhnreadbook",
+            "certificate_hash": "ea065c8214c6045f2531ee457a08c177f5fde8ab"
+          }
+        },
+        {
+          "client_id": "904789266660-s0pkp6umkcuhcmuqmu61jivhso298htn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA9xXP7oODvLhF6cJbGxFMbYFZ9tyt1F0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904789266660-s0pkp6umkcuhcmuqmu61jivhso298htn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
