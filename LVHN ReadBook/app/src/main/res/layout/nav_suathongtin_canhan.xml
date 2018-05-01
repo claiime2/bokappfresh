@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorcanhan"
+    tools:context=".activity.Trangchu.SuathongtinCanhanNav">
+    <LinearLayout
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_navigation"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:elevation="4dp"
+            android:background="@drawable/demo3"
+            android:layout_height="130dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_anhdaidien"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/user"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#48d9f1f7"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:errorEnabled="false"
+            app:hintTextAppearance="@style/TextLabel"
+            android:layout_marginTop="10dp"
+            >
+
+            <EditText
+                android:id="@+id/ed_tentk"
+                android:background="@color/colorwhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên tài khoản"
+                android:theme="@style/MycolorAccent"
+                android:alpha="0.5"
+                android:padding="15dp"
+                android:textSize="16sp"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:textColorHint="@color/colorwhite"
+                app:hintTextAppearance="@style/TextLabel"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="8dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:alpha="0.5"
+                android:theme="@style/MycolorAccent"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColorHint="@color/colorwhite"
+                app:hintTextAppearance="@style/TextLabel" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_nhapmk"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.user.lvhnreadbookapp.ultil.PasswordEditText
+                android:id="@+id/ed_nhapmk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:alpha="0.5"
+                android:theme="@style/MycolorAccent"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="8dp"
+                android:hint="Mật khẩu"
+                android:padding="15dp"
+                android:password="true"
+                app:useStrike="true"
+                app:useValidate="true"
+                android:textColorHint="@color/colorwhite"
+                app:hintTextAppearance="@style/TextLabel" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.user.lvhnreadbookapp.ultil.PasswordEditText
+                android:id="@+id/ed_nhaplaimmk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:alpha="0.5"
+                app:useStrike="true"
+                android:theme="@style/MycolorAccent"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="8dp"
+                android:hint="Nhập lại mật khẩu"
+                android:padding="15dp"
+                android:password="true"
+                android:textColorHint="@color/colorwhite"
+                app:hintTextAppearance="@style/TextLabel" />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_luu"
+            android:layout_width="wrap_content"
+            android:text="Lưu thay đổi"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            tools:layout_editor_abiocaleX="12dp"
+            tools:layout_editor_abiocaleY="12dp"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/btn_suathongtin"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

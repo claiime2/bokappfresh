@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="HOA TƯ DẪN\n
+Chương 1-1: Mở đầu\n
+1. Công chúa tuẫn tiết\n
+\n
+Các vị tiên sinh kể chuyện trong trà lầu, phàm những người luống tuổi chắc hẳn đều từng nghe nói một câu chuyện xảy ra ở quốc đô nước Vệ sáu mươi bảy năm trước.\n
+\n
+Câu chuyện tình tiết thế nào ngày nay không ai nói rõ được, tuy nhiên hết thảy bình luận cho dù nội dung khác nhau, nhưng phần luận về nhân quả sự việc lại hoàn toàn thống nhất.\n
+\n
+Đều nói, Vệ vương những năm trước đắc tội với Trần vương, bốn năm sau Trần quốc tìm cơ hội thôn tính Vệ quốc. Trần thế tử Tô Dự đích thân xuất chinh, đánh thẳng vào Vệ vương đô. Vệ vương yếu hèn lựa chọn quy hàng, công chúa út Diệp Trăn quyết không chịu nhục, trang điểm đẹp đẽ, đứng trên tường thành đanh thép chỉ trích, trên chỉ trích quốc chủ, dưới chỉ trích ba quân, sau đó hướng về vương cung bái biệt ba vái, rồi mình ngọc nhảy từ trên tường thành cao trăm trượng xuống, tuẫn tiết cùng Vệ quốc.\n
+\n
+Các sử quan gọi cố sự này là truyền kỳ, về sau nhiều bậc đế vương hậu thế đã phê ngự bút bên lề sách sử, rằng Vệ công chúa Diệp Trăn bộc lộ chút hào khí cuối cùng của Vệ quốc, xứng là liệt nữ.\n
+\n
+Sáu mươi bảy năm Cửu Châu phân phân hợp hợp, hợp hợp phân phân, truyện xưa lùi vào dĩ vãng, bá tính hồi tưởng lại giống như hồi tưởng giai thoại truyền kỳ. Còn nghĩa cử tuẫn tiết của Diệp Trăn công chúa mặc dù gây xúc động mãnh liệt, sau khi lược bỏ sắc màu thần thánh và truyền kỳ, lại không khiến thiên hạ nhớ lâu bằng thiên diễm tình ngang trái của nàng với Trần thế tử Tô Dự, mặc dù không ai biết thực hư thế nào.\n
+\n
+Sử sách Cửu Châu cũng viết về mối tình Tô - Diệp, nhưng không nhiều, chỉ ghi lại một chuyện nhỏ, kể rằng khi Trần thế tử Tô Dự tiếp nhận quốc ấn quy hàng của Vệ vương ở triều đường Vệ quốc, đã hỏi lão Vệ vương: &quot;quote Nghe đồn Văn Xương công chúa của quý quốc là đệ nhất tài nữ trong thiên hạ, cầm kỳ thi họa rất mực tinh thông, nhất là tài vẽ tranh sơn thủy, Vệ công từng so sánh quốc ấn này với công chúa, không biết hôm nay bản cung có được vinh hạnh thỉnh cầu Văn Xương công chúa họa cho một bức chân dung?&quot;quote. Văn Xương công chúa chính là phong hiệu của Diệp Trăn đã tuẫn tiết, với hàm ý văn đức phồn thịnh.\n
+\n
+Sử sách chỉ sơ lược vài nét như vậy, những người biết chuyện năm xưa đã sớm về với cát bụi trong thế tình điên đảo sáu mươi bảy năm. Thiên tình sử truyền kỳ bi tráng đó cũng bị phủ bụi thời gian. Dân gian tuy truyền miệng, cũng chẳng qua như đuổi theo cái bóng, không biết thực hư thế nào. Muốn lần lại câu chuyện này, phải quay về mùa xuân sáu mươi bảy năm trước.\n
+\n
+2. Mất nước\n
+\n
+Mùa xuân sáu mươi bảy năm trước, khắp dải đất phía bắc Trường Giang Cửu Châu, suốt nửa năm ròng ông trời không ban cho nửa giọt mưa. Vệ quốc, một trong những chư hầu của đất Cửu Châu mặc dù ở ngay bên bờ Đoan Hà, nước cũng chỉ đủ cho muôn dân khỏi chết khát, toàn bộ hoa màu nuôi sống muôn dân đều chết khô. Không quá hai mùa, nạn đói hoành hành trên toàn lãnh thổ đại Vệ, quang cảnh vô cùng thê thảm.\n
+\n
+Vệ vương nửa đời vô dụng, kinh động bởi trận thiên tai ác hiểm, lần đầu tiên từ trong đống son phấn hiểu ra, nhanh chóng hạ lệnh quan phủ các nơi mở kho lương thực, cứu tế muôn dân. Quân vương mặc dù nhất thời anh minh, nhưng tệ nạn hủ bại thâm căn cố đế từ lâu nhất thời không có cách nào dẹp được, từng đạo chiếu chỉ đã ban, kho lương đã mở, lương thực đã chia, vạn thạch lương thực kìn kìn chuyển ra, nhưng đến tay dân chỉ còn miếng cháo loãng. Muôn dân giương mắt nhìn quan phủ bố thí cho miếng cháo, không ngờ miếng cháo quả nhiên chỉ được một miếng, không dư một hạt để làm giống cho vụ sau.\n
+\n
+Mắt thấy đã bị tuyệt đường sống, trăm họ đành phải vùng lên. Trăm họ nổi loạn bất chấp đạo vua tôi, tất phải có cớ, họ nói trời đã lâu không ban mưa là do Vệ vương vô đức, khiến ông trời phẫn nộ, để dẹp nộ khí của đấng cao xanh tất phải đuổi Vệ vương vô đức ra khỏi ngôi báu.\n
+\n
+Lời đồn lan tới thâm cung vương đô nhanh như gió, Vệ vương choáng váng bàng hoàng bởi lời kết tội của muôn dân, tức tốc thiết triều lệnh cho quần thần bàn kế dẹp phản. Quần thần quen đạo làm quan, nói vài câu giả dối, ca tụng thánh chúa anh minh, coi như xong bổn phận.\n
+\n
+Chỉ có một cát sĩ (kẻ sĩ tốt) mới tiếp quản chức vụ của thân phụ, chưa có kinh nghiệm làm quan, thật thà tâu lên: &quot;quoteThiên hạ đều nói Huệ Nhất tiên sinh ở Thanh Ngôn tông trên núi Nhạn Hồi là bậc đại trí, nếu mời được tiên sinh xuống núi, có lẽ sẽ có kế hay, không cần động binh&quot;quote. Thanh Ngôn tông là quốc tông của Vệ quốc, cầu phúc cho Vệ quốc, phù hộ cho quốc mệnh, tông chủ thế hệ này là Huệ Nhất tiên sinh.\n
+\n
+    Có lẽ số phận đã định khí số của Vệ quốc đã tận, chính trong đêm Vệ vương phái sứ giả đến quốc tông mời Huệ Nhất, lão tông chủ tuổi hạc bát tuần đã trút hơi thở cuối cùng. Trước khi tạ thế, Huệ Nhất tiên sinh đã lưu lại một cẩm nang, trong cẩm nang là một tờ giấy trắng, viết tám chữ theo lối bạch thoại: &quot;quoteHội minh phương dĩ, đại họa đông lai&quot;quote(*). Vệ vương cầm cẩm nang nghiền ngẫm suốt một đêm trong thư phòng. Cung nhân ngủ gật bên ngoài loáng thoáng nghe thấy tiếng nức nở từ thư phòng vẳng ra.\n
+\n
+    Huệ Nhất phán đoán như thần, vừa qua mồng chín tháng chín, Trần quốc, láng giềng phía đông dấy binh công phạt Vệ quốc. Lý do là năm trước vào dịp chư hầu hội minh, Vệ hầu vương lúc đi săn đã cố ý bắn rách một nửa góc áo Trần hầu vương, Vệ hầu ngang nhiên coi thường quân uy Trần hầu, hạ nhục Trần quốc. Mười vạn đại quân Trần thế như gió bão, nhất lộ thẳng tiến, hầu như không gặp trở ngại, chưa đầy hai tháng đại quân đã dàn hàng bên ngoài vương thành Vệ quốc.\n
+\n
+    Toàn thiên hạ nhìn nhận cuộc chiến này như một trò cười, mấy mưu sĩ của Trần hầu thậm chí còn đánh cuộc sau lưng, xem lão Vệ hầu vô dụng có thể trụ được mấy ngày. Trần thế tử Tô Dự đúng lúc đi ngang qua, phe phảy chiếc quạt bạch ngọc trong tay: &quot;quoteMuộn nhất là giờ ngọ ngày mai&quot;quote.\n
+\n
+    Chính ngọ hôm sau, mặt trời lười biếng trốn sau mây đen, hé ra một vòng sáng trắng, vương đô Vệ quốc giống như chiếc hộp đựng dế chọi treo lơ lửng trên không.\n
+\n
+    Giờ ngọ ba khắc, lá cờ hàng trắng quả nhiên kéo lên ở phía đầu thành, từ khi được thiên tử phong hầu, phúc trạch của Vệ quốc kéo dài tám mươi sáu năm, cuối cùng chấm dứt trong năm đó. Lão quốc vương thân hành rước Tô Dự vào cung, tông thất, quần thần lớn bé nhất loạt quỳ phục trước triều đường, họ đều là những thần tử thông tỏ sách thánh hiền, rất hiểu thời cuộc, chim khôn luôn biết tìm cây tốt nương đậu.\n
+\n
+    Sau giờ ngọ, mặt trời trốn hẳn sau tầng mây, hoàn toàn không thấy ánh sáng, ông trời hạn hán đã lâu, nay dường như mới mở mắt, đột nhiên rót mấy giọt mưa. Trần thế tử Tô Dự mình khoác áo lông hạc, tay cầm chiếc quạt ngà mười hai nan, đường đường đứng bên vương tọa triều đường, tiếp nhận quốc ấn do lão Vệ vương trình lên, hỏi vài điều về Văn Xương công chúa, không khác một chữ so với ghi chép của sử quan. xem tại TruyenFull.vn\n
+\n
+    Có điều, thế tử Tô Dự không vinh hạnh có được bút tích của Diệp Trăn, khi chàng nói câu đó với lão Vệ vương trước triều đường, Diệp Trăn đã trèo lên tường thành vương cung. Cuộc hội ngộ đầu tiên của Tô Dự và Diệp Trăn có sử liệu để tra cứu là trong buổi chiều đúng ngày Vệ quốc diệt vong, cách bức thành cao trăm trượng, giữa hai đầu sinh tử.\n
+\n
+    Chàng thậm chí không nhìn rõ dung nhan khuynh thành của Diệp Trăn như lời đồn đại, mặc dù chàng nghe đồn từ lâu. Nghe nói một trăm ngày sau khi Diệp Trăn ra đời, Vệ vương chiêm bao thấy một trưởng tăng điên điên khùng khùng, trưởng tăng phán rằng, mặc dù xuất thân hoàng tộc, nhưng công chúa là người bạc mệnh vô phúc, vương cung phế khí quá nặng, nếu nuôi dưỡng trong cung nhất định không thể sống qua mười sáu tuổi.\n
+\n
+    Nghe đồn Vệ vương tin lời trưởng tăng, ngay từ nhỏ đã gửi nuôi cô trong Thanh Ngôn tông, quốc tông của Vệ quốc để cầu bình an, thề không gặp lại trước khi công chúa mười sáu tuổi. Lại nghe đồn hai năm trước, vào ngày mừng thọ Vệ vương, Diệp Trăn đã vẽ bức &quot;quoteSơn cư đồ&quot;quote làm quà mừng thọ phụ thân, được tân khách trầm trồ thán phục, Vệ vương cả mừng.\n
+\n
+    Trong màn mưa mênh mang, Tô Dự tay cầm quạt đứng dưới lầu, chợt nhớ tới lời nói của vương muội Tô Nghi trước lúc chàng xuất chinh: &quot;quoteNghe đồn Văn Xương công chúa Vệ quốc vô cùng xinh đẹp, lại trí tuệ tài hoa, là một giai nhân tài mạo vẹn toàn, huynh xuất chinh lần này khi giương cờ chiến thắng, liệu có đón được Văn Xương công chúa về cung, làm chị dâu của muội?&quot;quote. Chiếc váy dài của Diệp Trăn bay phấp phới trên tường thành, đột nhiên bóng người mảnh dẻ từ trên thành cao trăm trượng lao xuống như một con chim trắng, chiếc váy nhuốm đỏ khi nàng nằm trên đất, trong hàng quân bên dưới ào lên tiếng khóc than của tướng sĩ Vệ quốc.\n
+\n
+    Tô Dự nhìn thân hình nhuốm máu phía xa, thẫn thờ hồi lâu mới gập chiếc quạt trong tay, nói: &quot;quoteHậu táng theo chế lễ dành cho công chúa&quot;quote."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</ScrollView>

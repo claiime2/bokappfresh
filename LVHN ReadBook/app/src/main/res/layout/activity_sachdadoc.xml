@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbartusach"
+        android:background="#183545"
+        app:titleTextColor="#ffffff"
+        app:title="Sách đã xem"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imagenhagiakim"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbartusach"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/rec3" />
+
+    <TextView
+        android:id="@+id/textviewnhagiakim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbartusach"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#f20"
+        android:text="Nhà Giả Kim" />
+
+    <ImageView
+        android:id="@+id/imagehtb"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imagenhagiakim"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/rec2" />
+    <TextView
+        android:id="@+id/textviewhtb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewnhagiakim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="100dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#f20"
+        android:text="Hoàng Tử Bé" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar3"
+        android:layout_alignStart="@+id/ratingBar3"
+        android:layout_below="@+id/textviewhtb"
+        android:layout_marginTop="18dp"
+        android:rating="4" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewnhagiakim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:rating="5" />
+
+</RelativeLayout>

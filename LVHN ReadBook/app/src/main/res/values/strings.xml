@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LVHN ReadBook</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="na_setting">Cài đặt</string>
+    <string name="na_person">Cá nhân</string>
+    <string name="na_lib">Tủ sách</string>
+    <string name="caidat_moibanbe">Mời bạn bè</string>
+    <string name="caidat_thaydoi">Thay đổi thông tin cá nhân</string>
+    <string name="caidat_thongbao">Thông báo</string>
+    <string name="caidat_doigiaodien">Đổi giao diện</string>
+    <string name="caidat_lienhe">Liên hệ</string>
+    <string name="button_dangxuat">Đăng xuất</string>
+    <string name="toobar_caidat">Cài đặt</string>
+    <string name="caidat_cauhoithuonggap">Câu hỏi thường gặp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="phienban">Phiên bản</string>
+    <string name="chuapp">lnvh Corporation 2018</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_trangchu">TrangchuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Toast dangky -->
+    <string name="emailerr">Vui lòng nhập email</string>
+    <string name="tentkerr">Vui lòng nhập tên tài khoản</string>
+    <string name="mkerr">Vui lòng nhập mật khấu</string>
+    <string name="nhaplaimmkerr">Mật khẩu không khớp</string>
+    <string name="dangkythanhcong">Đăng ký thành công</string>
+    <string name="dangnhapthanhcong">Đăng nhập thành công</string>
+    <string name="updatethanhcong">Đã cập nhật thông tin</string>
+    <string name="dangkyfail">Email này đã đăng ký rồi</string>
+    <string name="dangxuli">Đang xử lý</string>
+    <string name="dnthatbai">Thông tin sai</string>
+
+    <string name="emailerorr">Email không hợp lệ</string>
+    <string name="xemmail">Vui lòng kiểm tra mail của bạn</string>
+    <string name="facebook_app_id">199808334076354</string>
+
+</resources>

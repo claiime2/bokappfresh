@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorTrangchu</item>
+        <item name="colorAccent">#f362f976</item>
+    </style>
+
+    <style name="EditTextHint" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/colorwhite</item>
+        <item name="colorControlNormal">@color/colorwhite</item>
+        <item name="colorControlActivated">@color/colorTrangchu</item>
+        <item name="colorControlHighlight">@color/colorwhite</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme_darkblue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTrangchu</item>
+        <item name="colorTrangchu">@color/colorTrangchu</item>
+        <item name="colorPrimaryDark">@color/colorTrangchudark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_green" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorTrangchu">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreendark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_skyblue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorskyBlue</item>
+        <item name="colorTrangchu">@color/colorskyBlue</item>
+        <item name="colorPrimaryDark">@color/colorskyBluedark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_red" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorTrangchu">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorReddark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_orange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorOrange</item>
+        <item name="colorTrangchu">@color/colorOrange</item>
+        <item name="colorPrimaryDark">@color/colorOrangedark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_purpal" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPurpal</item>
+        <item name="colorTrangchu">@color/colorPurpal</item>
+        <item name="colorPrimaryDark">@color/colorPurpaldark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_Greendeep" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGreendeep</item>
+        <item name="colorTrangchu">@color/colorGreendeep</item>
+        <item name="colorPrimaryDark">@color/colorGreendeepdark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+    <style name="AppTheme_brown" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorbrown</item>
+        <item name="colorTrangchu">@color/colorbrown</item>
+        <item name="colorPrimaryDark">@color/colorbrowndark</item>
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/colorTrangchu</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/colorTrangchu</item>
+        <item name="android:textAllCaps">false</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/colorwhite</item>
+    </style>
+    <style name="MycolorAccent">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/colorTrangchu</item>
+
+    </style>
+    <style name="MycolorAccentlogin">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/loginaccent</item>
+
+    </style>
+    <declare-styleable name="PassWordEditText">
+        <attr name="useStrike" format="boolean"/>
+        <attr name="useValidate" format="boolean"/>
+    </declare-styleable>
+
+</resources>

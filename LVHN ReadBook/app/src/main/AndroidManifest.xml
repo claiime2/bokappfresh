@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.lvhnreadbookapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme_darkblue">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".activity.DangnhapDangky.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DangnhapDangky.WelcomeActivity" />
+        <activity android:name=".activity.Trangchu.MainActivity" />
+        <activity android:name=".activity.Trangchu.HuongdanHotroNav" />
+        <activity android:name=".activity.ForumPost.BinhluanPostActivity" />
+        <activity android:name=".activity.DangnhapDangky.ForgetPassActivity" />
+        <activity android:name=".activity.ForumPost.PostbaiActivity" />
+        <activity android:name=".activity.DangnhapDangky.DangkyActivity" />
+        <activity android:name=".activity.Trangchu.CaidatActivity" />
+        <activity android:name=".DanhmucnoibatActvity" />
+        <activity android:name=".SachtheodanhmucActivity"/>
+        <activity android:name=".ChitietsachActivity" />
+        <activity android:name=".DocsachActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".TusachActivity" />
+        <activity android:name=".CanhanActivity" />
+        <activity android:name=".activity.Trangchu.SuathongtinCanhanNav" />
+        <activity android:name=".activity.Trangchu.CaidatGiaodienNav" />
+        <activity android:name=".activity.Trangchu.LienheGioithieuNav" />
+        <activity android:name=".activity.Trangchu.CaidatTimeNav" />
+        <activity android:name=".activity.ForumPost.AddPostActivity"></activity>
+    </application>
+
+</manifest>

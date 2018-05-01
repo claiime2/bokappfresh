@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.lvhnreadbookapp.activity.Trangchu.CaidatActivity">
+    <LinearLayout
+        android:layout_weight=".9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorTrangchu">
+            <Button
+                android:id="@+id/button_backcaidat"
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center_vertical"
+                android:text="@string/toobar_caidat"
+                android:textColor="@color/colorwhite"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CÁ NHÂN"
+                    android:gravity="center"
+                    android:padding="14dp"
+                    android:textColor="#000"
+                    android:background="@color/graylight"/>
+                <ListView
+                    android:id="@+id/listview_caidat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></ListView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GIÚP ĐỠ"
+                    android:gravity="center"
+                    android:padding="14dp"
+                    android:textColor="#000"
+                    android:background="@color/graylight"/>
+                <ListView
+                    android:id="@+id/listview_caidat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ListView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/graylight">
+            </View>
+            <Button
+                android:id="@+id/btn_dangxuat"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_boder"
+                android:layout_height="wrap_content"
+                android:text="ĐĂNG XUẤT"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/layout_bottomnavigation_view"/>
+</LinearLayout>
+
+
+
