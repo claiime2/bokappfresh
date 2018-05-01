@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/thaydoi_canhan"
+            android:icon="@drawable/ic_person_black_24dppng"
+            android:title="Thay đổi thông tin cá nhân"
+
+            />
+        <item android:id="@+id/caidat_giaodien"
+            android:icon="@drawable/ic_format_paint_black_24dp"
+            android:title="Cài đặt giao diện"/>
+        <item android:id="@+id/caidat_time"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Hẹn giờ đọc sách"/>
+        <item android:id="@+id/ngonngu"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="Ngôn ngữ"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+            <item android:id="@+id/hotro_ungdung"
+                android:icon="@drawable/ic_forum_black_24dp"
+                android:title="Hướng dẫn và hổ trợ"/>
+            <item android:id="@+id/gioithieu_lienhe"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Giới thiệu và liên hệ"/>
+            <item android:id="@+id/face_theodoi"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Theo dõi chúng tôi trên facebook"/>
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item android:id="@+id/btn_dangxuat"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Đăng xuất"/>
+    </group>
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,33 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c9caca">
+
+        </View>
+        <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+            android:id="@+id/bottom_Na"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorbgBottom"
+            android:visibility="visible"
+            app:itemIconTint="@color/item_bottomnavigation"
+            app:itemTextColor="@color/item_bottomnavigation"
+            app:menu="@menu/items_na">
+
+
+        </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
+
+    </LinearLayout>
+
+
+
+</merge>

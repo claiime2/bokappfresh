@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_seekbar"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <SeekBar
+        android:id="@+id/item_seekbar"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_start"
+            android:layout_weight="0.4"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTrangchu"
+            android:text="start"
+            />
+        <TextView
+            android:id="@+id/text_end"
+            android:layout_weight="0.7"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTrangchu"
+            android:text="end"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_demnguoc"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorTrangchu"
+        android:text="Còn lại "
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_huy"
+            android:layout_weight="0.4"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTrangchu"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+
+            android:background="@color/colorwhite"
+            android:gravity="left"/>
+        <Button
+            android:layout_weight="0.7"
+            android:id="@+id/btn_demgio"
+            android:textAllCaps="false"
+            android:text="Bắt đầu tính giờ"
+            android:textColor="@color/colorTrangchu"
+            android:background="@color/colorwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>

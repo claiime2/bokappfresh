@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/drawerlayout_trangchu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <android.support.constraint.ConstraintLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.zheng.sch.canhanActivity">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="320dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:orientation="vertical"
+                    android:background="#69baf9">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/kaws" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Kaws"
+                        android:textAlignment="center"
+                        android:textColor="#5b5a5a"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <android.support.v7.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="220dp"
+                    tools:ignore="MissingConstraints"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginLeft="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="45dp"
+                                android:paddingTop="10dp"
+                                android:text="Sách"
+                                android:textAlignment="center"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="45dp"
+                                android:text="12"
+                                android:textAlignment="center"
+                                android:textColor="#7accff"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="45dp"
+                                android:paddingTop="10dp"
+                                android:text="Số bình luận"
+                                android:textAlignment="center"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="45dp"
+                                android:text="12"
+                                android:textAlignment="center"
+                                android:textColor="#7accff"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="45dp"
+                                android:paddingTop="10dp"
+                                android:text="Đang theo dõi"
+                                android:textAlignment="center"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="45dp"
+                                android:text="12"
+                                android:textAlignment="center"
+                                android:textColor="#7accff"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="302dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/add" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="#ffffff"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="30dp"
+                        android:text="Thăm bạn"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/reminder" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="30dp"
+                        android:text="Sách yêu thích"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/books" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#ffffff"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="30dp"
+                        android:text="Sách đã xem"
+                        android:textColor="#000000"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+       <include layout="@layout/layout_bottomnavigation_view"/>
+
+
+</LinearLayout>
