@@ -7,144 +7,32 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight=".9">
-        <ScrollView
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <LinearLayout
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#efeaea">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="20dp"
+                android:text="danh mục theo thể loại"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:background="@color/colorTrangchu"
+                android:textColor="@color/colorwhite"
+                android:textSize="18sp" />
+            <GridView
+                android:id="@+id/gridviewDanhmuc"
+                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:background="#efeaea">
+                android:numColumns="2">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:paddingTop="15dp"
-                    android:text="danh mục theo thể loại"
-                    android:textAlignment="center"
-                    android:textAllCaps="true"
-                    android:background="@color/colorTrangchu"
-                    android:textColor="@color/colorwhite"
-                    android:textSize="18sp" />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/novel"
-                        android:text="tiểu thuyết"
-                        android:textColor="@color/colordanhmuc"
-                        android:textSize="20sp" />
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="truyện cười"
-                        android:textSize="20sp"
-                        android:background="@drawable/funny"
-                        android:textColor="@color/colordanhmuc"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="tâm lý học"
-                        android:textSize="20sp"
-                        android:textColor="@color/colordanhmuc"
-                        android:background="@drawable/psychology"/>
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="ngôn ngữ học"
-                        android:textSize="20sp"
-                        android:textColor="@color/colordanhmuc"
-                        android:background="@drawable/linguistic"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="sách tham khảo"
-                        android:textColor="@color/colordanhmuc"
-                        android:background="@drawable/reference"
-                        android:textSize="20sp"/>
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="khoa học"
-                        android:textSize="20sp"
-                        android:textColor="@color/colordanhmuc"
-                        android:background="@drawable/science"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/novel"
-                        android:text="tiểu thuyết"
-                        android:textColor="@color/colordanhmuc"
-                        android:textSize="20sp" />
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="truyện cười"
-                        android:textSize="20sp"
-                        android:background="@drawable/funny"
-                        android:textColor="@color/colordanhmuc"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="sách tham khảo"
-                        android:textColor="@color/colordanhmuc"
-                        android:background="@drawable/reference"
-                        android:textSize="20sp"/>
-                    <Button
-                        android:layout_width="190dp"
-                        android:layout_height="120dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:text="khoa học"
-                        android:textSize="20sp"
-                        android:textColor="@color/colordanhmuc"
-                        android:background="@drawable/science"/>
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
+            </GridView>
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

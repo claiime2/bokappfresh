@@ -135,13 +135,13 @@ public class SachModel {
                 DataSnapshot dataSnapshotSach=dataSnapshot.child("sachs");
                 for (DataSnapshot valueSach:dataSnapshotSach.getChildren()){//cac the loai
                     String theloai=valueSach.getKey();//matheloai
-                   // Log.d("checksach",theloai);
+                    // Log.d("checksach",theloai);
                     for(DataSnapshot value:valueSach.getChildren()){
-                            SachModel sachModel=value.getValue(SachModel.class);
-                            sachModel.setMatheloai(theloai);
-                            sachModel.setMasach(value.getKey());
-                            //Log.d("checksach",value.getKey());
-                            sachInterface.getSachModel(sachModel);
+                        SachModel sachModel=value.getValue(SachModel.class);
+                        sachModel.setMatheloai(theloai);
+                        sachModel.setMasach(value.getKey());
+                        //Log.d("checksach",value.getKey());
+                        sachInterface.getSachModel(sachModel);
                     }
 
                 }
@@ -188,7 +188,30 @@ public class SachModel {
         dataSach.addListenerForSingleValueEvent(valueEventListener);
 
     }
+    public void getdataMatheloai(final SachInterface sachInterface, final String key){
+        final String keyTL=key;
+        ValueEventListener valueEventListener=new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                DataSnapshot dataSnapshotSach=dataSnapshot.child("sachs").child(keyTL); //Here?
+                for (DataSnapshot valueSach:dataSnapshotSach.getChildren()){//Các cuốn sách.
+                    SachModel sachModel=valueSach.getValue(SachModel.class);
+                    sachModel.setMatheloai(keyTL);
+                    sachModel.setMasach(valueSach.getKey());
+                    Log.d("masach",valueSach.getKey());
+                    Log.d("matheloaisaach",sachModel.getMatheloai());
+                    sachInterface.getSachModel(sachModel);
+                }
+            }
 
 
 
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        };
+        dataSach.addListenerForSingleValueEvent(valueEventListener);
+    }
 }

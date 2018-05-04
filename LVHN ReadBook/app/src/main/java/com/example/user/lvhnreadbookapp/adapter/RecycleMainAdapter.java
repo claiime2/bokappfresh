@@ -44,11 +44,14 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private ArrayList<Object> items;
     private final int VERTICAL = 1;
     private final int HORIZONTAL = 2;
-    String key;
+    ArrayList<String> danhmuc=new ArrayList<String>(5);
 
     public RecycleMainAdapter(Context context, ArrayList<Object> items) {
         this.context = context;
         this.items = items;
+        for(int i=0;i<items.size();i++){
+            danhmuc.add("a");
+        }
     }
 
 
@@ -107,7 +110,7 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
             holder.tieude.setText("Sách mới cập nhật");
             adapter = new HorizontalAdapter(items);
-             final SachInterface sachInterface=new SachInterface() {
+            final SachInterface sachInterface=new SachInterface() {
                 @Override
                 public void getSachModel(SachModel sachModel) {
                     items.add(sachModel) ;
@@ -116,7 +119,7 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
                 }
             };
-             key=holder.tieude.getText().toString();
+            danhmuc.set(holder.getLayoutPosition(),"Sách mới cập nhật");
             sachModel.getdataSach(sachInterface);
             Log.d("sizelist",items.size()+"");
 
@@ -131,10 +134,11 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                     public void getSachModel(SachModel sachModel) {
                         items.add(sachModel) ;
                         adapter.notifyDataSetChanged();
+                        danhmuc.set(holder.getAdapterPosition(),sachModel.getMatheloai());
                     }
                 };
                 sachModel.getdatatheloai(sachInterface,"Văn học nước ngoài");
-                key=holder.tieude.getText().toString();//
+
             }
             else{
                 holder.tieude.setText("Sách đề cử");
@@ -145,10 +149,11 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                         items.add(sachModel) ;
                         adapter.notifyDataSetChanged();
                         sortdanhgia(items);
+
                     }
                 };
                 sachModel.getdataSach(sachInterface);
-                key=holder.tieude.getText().toString();
+                danhmuc.set(holder.getLayoutPosition(),"Sách đề cử");
 
             }
         }
@@ -158,11 +163,12 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View v) {
-               // Log.d("kiemtraxemthem",holder.tieude.getText().toString());
+                // Log.d("kiemtraxemthem",holder.tieude.getText().toString());
                 //Toast.makeText(context,holder.tieude.getText().toString(),Toast.LENGTH_SHORT).show();
                 holder.btnthem.setTextColor(R.color.colorTrangchu);
                 Intent intent= new Intent(context,SachtheodanhmucActivity.class);
-                intent.putExtra("keydanhmuc",key);
+                intent.putExtra("keydanhmuc",danhmuc.get(holder.getLayoutPosition()));
+                intent.putExtra("vitri","trangchu");
                 context.startActivity(intent);
             }
         });
@@ -185,8 +191,7 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                 }
             };
             sachModel.getdataSach(sachInterface);
-            key=holder.tieude.getText().toString();
-            Log.d("sizelist",items.size()+"");
+            danhmuc.set(holder.getLayoutPosition(),"Sách đọc nhiều");
         }else{
             holder.tieude.setText("Văn học trong nước");
             adapter1=new VerticalAdapter(items);
@@ -195,10 +200,10 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                 public void getSachModel(SachModel sachModel) {
                     items.add(sachModel) ;
                     adapter1.notifyDataSetChanged();
+                    danhmuc.set(holder.getLayoutPosition(),sachModel.getMatheloai());
                 }
             };
             sachModel.getdatatheloai(sachInterface,"Văn học trong nước");
-            key=holder.tieude.getText().toString();
         }
         holder.recyclerView.setLayoutManager(new LinearLayoutManager(context));
         holder.recyclerView.setAdapter(adapter1);
@@ -207,10 +212,11 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             @Override
             public void onClick(View v) {
                 //Log.d("kiemtraxemthem",holder.tieude.getText().toString());
-               // Toast.makeText(context,holder.tieude.getText().toString(),Toast.LENGTH_SHORT).show();
+                // Toast.makeText(context,holder.tieude.getText().toString(),Toast.LENGTH_SHORT).show();
                 holder.btnthem.setTextColor(R.color.colorTrangchu);
                 Intent intent= new Intent(context,SachtheodanhmucActivity.class);
-                intent.putExtra("keydanhmuc",key);
+                intent.putExtra("keydanhmuc",danhmuc.get(holder.getLayoutPosition()));
+                intent.putExtra("vitri","trangchu");
                 context.startActivity(intent);
             }
         });

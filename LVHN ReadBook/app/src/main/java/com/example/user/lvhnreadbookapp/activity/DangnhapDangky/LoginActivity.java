@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.user.lvhnreadbookapp.SQLiteHelper;
 import com.example.user.lvhnreadbookapp.activity.Trangchu.MainActivity;
 import com.example.user.lvhnreadbookapp.R;
 import com.facebook.CallbackManager;
@@ -39,6 +40,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class LoginActivity extends Activity implements View.OnClickListener, FirebaseAuth.AuthStateListener{
+    SQLiteHelper db=SQLiteHelper.getHeler(this);
     Button buttonDangky,btnDangnhap;
     Button buttonBoqua,dangnhapFace;
     TextView quenmk;
@@ -68,6 +70,7 @@ public class LoginActivity extends Activity implements View.OnClickListener, Fir
         LoginManager.getInstance().logOut();
         setContentView(R.layout.activity_login);
         initview();
+        db.deleteAll();
     }
 
     @Override

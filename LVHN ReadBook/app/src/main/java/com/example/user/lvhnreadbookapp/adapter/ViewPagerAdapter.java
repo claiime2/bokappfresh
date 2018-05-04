@@ -70,13 +70,14 @@ public class ViewPagerAdapter extends PagerAdapter{
                     key="Sách mới cập nhật";
                 }else if (position == 1){
                     //Toast.makeText(context,"Sách đề cử",Toast.LENGTH_SHORT).show();
-                    key="Sach đề cử";
+                    key="Sách đề cử";
                 }else{
                     //Toast.makeText(context,"Sách đọc nhiều",Toast.LENGTH_SHORT).show();
                     key="Sách đọc nhiều";
                 }
                 Intent intent= new Intent(context,SachtheodanhmucActivity.class);
                 intent.putExtra("keydanhmuc",key);
+                intent.putExtra("vitri","trangchu");
                 context.startActivity(intent);
             }
         });

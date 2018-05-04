@@ -33,6 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.folioreader.ui.folio.activity.FolioActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".activity.DangnhapDangky.WelcomeActivity" />
         <activity android:name=".activity.Trangchu.MainActivity" />
         <activity android:name=".activity.Trangchu.HuongdanHotroNav" />

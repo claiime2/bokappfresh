@@ -13,6 +13,7 @@ import android.content.pm.Signature;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PorterDuff;
+import android.net.Uri;
 import android.os.CountDownTimer;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
@@ -250,7 +251,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.face_theodoi:
 
-                Toast.makeText(MainActivity.this,"chưa hổ trợ",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this,"chưa hổ trợ",Toast.LENGTH_SHORT).show();
+                Intent viewIntent =
+                        new Intent("android.intent.action.VIEW",
+                                Uri.parse("https://www.facebook.com/READbooks.vn/"));
+                startActivity(viewIntent);
                 break;
             default:
                 Toast.makeText(MainActivity.this,"Sai",Toast.LENGTH_SHORT).show();

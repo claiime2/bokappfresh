@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <include layout="@layout/toolbar_navigation"/>
-
-    <TextView
+    <GridView
+        android:id="@+id/grid_sachtheodm"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20sp"
-        android:text="Sach theo danh muc"/>
+        android:numColumns="3"
+        android:layout_height="match_parent">
 
+    </GridView>
 </LinearLayout>

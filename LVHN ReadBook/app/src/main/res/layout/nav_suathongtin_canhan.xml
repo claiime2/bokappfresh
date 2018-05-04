@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:gravity="center"
             android:elevation="4dp"
-            android:background="@drawable/demo3"
+            android:background="@drawable/demo5"
             android:layout_height="130dp">
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img_anhdaidien"

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="@drawable/demo3"
+    android:background="@drawable/demo5"
     android:orientation="vertical"
     android:layout_height="160dp">
 
@@ -18,7 +18,7 @@
         android:id="@+id/text_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorwhite"
+        android:textColor="@color/colorblack"
         android:textStyle="bold"
         android:text="Người dùng"
         android:layout_marginLeft="25dp"/>
@@ -29,7 +29,7 @@
         android:text="user@gmail.com"
         android:textStyle="bold"
         android:layout_marginLeft="15dp"
-        android:textColor="@color/colorwhite"
+        android:textColor="@color/colorblack"
         />
 </LinearLayout>
 
