@@ -46,11 +46,7 @@ public class DocsachActivity extends AppCompatActivity implements OnHighlightLis
         Log.d("sizejson",String.valueOf(arr.size()));
         folioReader=FolioReader.getInstance(getApplicationContext());
         folioReader.setOnHighlightListener(this);
-<<<<<<< HEAD
         folioReader.setReadPositionListener(this); // tạo triển khai ẩn danh của ReadPositionListener
-=======
-        folioReader.setReadPositionListener(this);
->>>>>>> daf5f08cf3bd904fa42babe34153193b6e9058ee
         String path;
         path=getIntent().getStringExtra("path");
         folioReader.openBook(path);
@@ -63,10 +59,7 @@ public class DocsachActivity extends AppCompatActivity implements OnHighlightLis
         new Thread(new Runnable() {
             @Override
             public void run() {
-<<<<<<< HEAD
                 //Xây dựng việc triển khai ReadPosition
-=======
->>>>>>> daf5f08cf3bd904fa42babe34153193b6e9058ee
 
                 ObjectReader objectReader = ObjectMapperSingleton.getObjectMapper().reader();
                 ReadPosition readPosition = null;
@@ -86,11 +79,7 @@ public class DocsachActivity extends AppCompatActivity implements OnHighlightLis
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-<<<<<<< HEAD
                 folioReader.setReadPosition(readPosition); // mở sách
-=======
-                folioReader.setReadPosition(readPosition);
->>>>>>> daf5f08cf3bd904fa42babe34153193b6e9058ee
                 Log.d("setposition","qua buoc");
             }
         }).start();
@@ -102,12 +91,8 @@ public class DocsachActivity extends AppCompatActivity implements OnHighlightLis
                 ArrayList<HighLight> highlightList = null;
                 ObjectMapper objectMapper = new ObjectMapper();
                 try {
-<<<<<<< HEAD
                     highlightList = objectMapper.readValue(loadAssetTextAsString("highlights/highlights_data.json"),
                             new TypeReference<List<HighlightData>>() {});
-=======
-                    highlightList = objectMapper.readValue(loadAssetTextAsString("highlights/highlights_data.json"), new TypeReference<List<HighlightData>>() {});
->>>>>>> daf5f08cf3bd904fa42babe34153193b6e9058ee
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -124,14 +109,9 @@ public class DocsachActivity extends AppCompatActivity implements OnHighlightLis
         }).start();
     }
     @Override
-<<<<<<< HEAD
     // Làm điều gì đó với dòng highlight nhận được
     public void onHighlight(HighLight highlight, HighLight.HighLightAction type) {
 
-=======
-    public void onHighlight(HighLight highlight, HighLight.HighLightAction type) {
-//        Toast.makeText(this, "highlight id = " + highlight.getUUID() + " type = " + type, Toast.LENGTH_SHORT).show();
->>>>>>> daf5f08cf3bd904fa42babe34153193b6e9058ee
     }
 
     @Override
